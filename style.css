@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+} */
+/* img {
+  height: 3rem;
+} */
+#alert {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  margin: 0;
+  /* z-index: 9999 !important; */
+}
+#spinner {
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  z-index: 99999999 !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
